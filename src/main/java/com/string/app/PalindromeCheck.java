@@ -6,7 +6,7 @@ public class PalindromeCheck {
 	 *            reversed.
 	 */
 	public static void main(String[] args) {
-		String input = "ABBA";
+		String input = "22";
 		boolean isPalindrome = isPalindrome(input);
 		System.out.println("Is palindrome: " + isPalindrome); // true
 	}

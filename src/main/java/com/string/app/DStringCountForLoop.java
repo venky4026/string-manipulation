@@ -12,7 +12,7 @@ public class DStringCountForLoop {
         for (int i = 0; i < input.length(); i++) {
             int count = 1;
             while (i + 1 < input.length() && input.charAt(i) == input.charAt(i + 1)) {
-                i++;
+            	i++;
                 count++;
             }
             sb.append(count).append(input.charAt(i));
